@@ -1,0 +1,18 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+# Disallow specific pages
+Disallow: /Download
+Disallow: /mainproject
+Disallow: /privacy.html
+Disallow: /blog.html
+Disallow: /create-drawing
+Disallow: /Vidmate%20Cash
+Disallow: /all-questions
+Disallow: /privacy-policy
+Disallow: /faq.html
+Disallow: /terms.html
+Disallow: /privacy/
+Disallow: /blog/
+Disallow: /terms/
+Disallow: /faq/

@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Define scrollbar colors and dimensions using CSS variables */
+:root {
+  --scrollbar-width: 10px;
+  --scrollbar-track-color: transparent;
+  --scrollbar-thumb-color: rgb(150, 148, 148);
+  --scrollbar-thumb-border: 1px solid rgb(154, 154, 154);
+  --scrollbar-thumb-radius: 20px;
+}
+
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Change width for vertical scrollbars */
+  height: 8px; /* Change height for horizontal scrollbars */
+}
+
+/* Track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background-color: #f0f0f0; /* Light gray */
+  border-radius: 10px;
+}
+
+/* Handle (scroll thumb) */
+::-webkit-scrollbar-thumb {
+  background-color: #c0c0c0; /* Gray color */
+  border-radius: 10px;
+}
+
+/* Handle hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a0a0a0; /* Slightly darker gray on hover */
+}
+
+/* Rounded color */
+.rounded-color-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.rounded-color-input::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+.rounded-color-input::-webkit-color-swatch {
+  border: 1px solid lightgray;
+  border-radius: 50%;
+}
+
+.rounded-color-input::-moz-color-swatch {
+  border: 1px solid lightgray;
+  border-radius: 50%;
+}
