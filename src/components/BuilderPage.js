@@ -208,7 +208,7 @@ export default function BuilderPage() {
         </div>
       </div>
 
-      <main className="max-w-7xl mx-auto px-6 py-8 grid grid-cols-1 xl:grid-cols-2 gap-8">
+      <main className="max-w-7xl mx-auto px-6 py-8 grid grid-cols-1 gap-8">
         {/* Form Section */}
         <div className="space-y-8">
           <div className="bg-white/70 backdrop-blur-sm rounded-2xl shadow-xl border border-white/20 p-8">
